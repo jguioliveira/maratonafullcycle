@@ -6,4 +6,4 @@ COPY hello.go .
 
 RUN go install
 
-CMD [ hello ]
+CMD [ "hello" ]
